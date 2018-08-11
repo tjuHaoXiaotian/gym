@@ -530,4 +530,20 @@ register(
     entry_point='gym.envs.unittest:MemorizeDigits',
     reward_threshold=20,
     )
+	
+	
+	
+# User define
+register(
+    id='ShipAcrossRiver-v0',
+    entry_point='gym.envs.user:ShipAcrossRiver',
+    reward_threshold=20,
+    )
+
+register(
+    id='ShipAcrossRiver-v1',
+    entry_point='gym.envs.user:ShipAcrossRiverHarder',
+    reward_threshold=20,
+    )
+
 
